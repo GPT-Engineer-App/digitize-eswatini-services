@@ -28,10 +28,10 @@ const Index = () => {
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
       <VStack spacing={8}>
-        <Heading as="h1" size="2xl" mb={8}>
+        <Heading as="h1" size="2xl" mb={8} textAlign="center">
           Digify eSwatini
         </Heading>
-        <Text fontSize="xl" textAlign="center">
+        <Text fontSize="xl" textAlign="center" textAlign="center">
           Digitizing Informal Businesses in eSwatini
         </Text>
         {services.map((service, index) => (
